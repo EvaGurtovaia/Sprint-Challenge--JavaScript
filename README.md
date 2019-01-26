@@ -42,10 +42,10 @@ A closure is an inner function that has access to the outer (enclosing) function
 
 4. Describe the four rules of the 'this' keyword.
 
-1. Global object binding. When in the global scope, the value of “this” will be the window/console object;
-2. Implicit binding. Whenever a function is called by a preceding dot, the object before that dot is this.
-3. Explicit binding. Whenever JavaScript’s call or apply method is used, this is explicitly defined.
-4. New binding. Whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function.
+- Global object binding. When in the global scope, the value of “this” will be the window/console object;
+- Implicit binding. Whenever a function is called by a preceding dot, the object before that dot is this.
+- Explicit binding. Whenever JavaScript’s call or apply method is used, this is explicitly defined.
+- New binding. Whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function.
 
 5. Why do we need super() in an extended class?
 
