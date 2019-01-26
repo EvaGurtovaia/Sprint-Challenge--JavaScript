@@ -152,18 +152,15 @@ const largerPopulation = zooAnimals.filter((animalPopulation) => {
 console.log(largerPopulation);
 
 
-let largeShirts = runners.filter((shirts) => {
-  return shirts.shirt_size === "L";
-});
-console.log(largeShirts);
-
 
 /* Request 4: .reduce() 
 
 The zoos need to know their total animal population across the United States.  Find the total population from all the zoos using the .reduce() method.
 
 */
-const populationTotal = 0;
+const populationTotal = zooAnimals.reduce((total, animalPop) =>  {
+  return total + animalPop.population;
+}, 0);
 console.log(populationTotal);
 
 
